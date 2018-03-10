@@ -137,3 +137,11 @@ li {
 .white {
   color: black;
 }
+
+/* footer section */
+
+footer {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
