@@ -9,7 +9,7 @@ html {
 
 h2 {
   font-size: 1rem;
-  color: white;
+  color: inherit;
 }
 
 /* Header section */
@@ -38,8 +38,22 @@ header h2 {
 .jumbotron {
   background-image: url('../images/moto.jpeg');
   height: 25rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
+.title {
+  padding: 2rem 3rem;
+  background-color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 20rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
 /* Nav Section */
 
 a {
