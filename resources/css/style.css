@@ -3,15 +3,50 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   color: white;
+  width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Header section */
+
+header {
+  display: flex;
+  width: 960px;
+  align-self: center;
+  justify-content: flex-start;
 }
 
 header img {
   display: inline-block;
   height: 1.5rem;
   width: auto;
+  padding: 0.5rem;
 }
 
-h2 {
-  font-size: 1rem;
-  color: white;
+header h2 {
+  display: inline-block;
+  margin: 0.66rem 1rem;
+}
+
+/* jumbotron section */
+
+.jumbotron {
+  background-image: url('../images/moto.jpeg');
+  height: 25rem;
+}
+
+/* Nav Section */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  display: inline-block;
 }
