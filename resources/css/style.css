@@ -195,3 +195,23 @@ footer {
   width: 100%;
   margin: 0 auto;
 }
+
+/* Media queries for tables y portrait mode*/
+@media only screen and (max-width: 1024px) {
+  .company,
+  .jumbobox,
+  .navbox,
+  .contentbox,
+  .infobox,
+  .footerbox {
+    max-width: 100%;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  .item {
+    width: 47%;
+  }
+}
