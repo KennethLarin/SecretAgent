@@ -3,7 +3,6 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   color: white;
-  width: 960px;
   margin: 0 auto;
 }
 
@@ -16,19 +15,25 @@ h2 {
 
 header {
   display: flex;
-  width: 960px;
   align-self: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
-header img {
+.company {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.company img {
   display: inline-block;
   height: 1.5rem;
   width: auto;
   padding: 0.5rem;
 }
 
-header h2 {
+.company h2 {
   display: inline-block;
   margin: 0.66rem 1rem;
 }
@@ -42,8 +47,13 @@ header h2 {
   background-repeat: no-repeat;
   height: 25rem;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+}
+
+.jumbobox {
+  width: 100%;
+  max-width: 960px;
 }
 
 .title {
@@ -64,6 +74,12 @@ nav {
   width: 100%;
 }
 
+.navbox {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -73,7 +89,7 @@ ul {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 li {
@@ -85,10 +101,16 @@ li {
 
 .conteiner {
   background-color: white;
-  display: flex;
   padding: 3rem 0;
+}
+
+.contentbox {
+  display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .item {
@@ -130,10 +152,16 @@ li {
 
 .info {
   background-color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding-bottom: 4rem;
+}
+
+.infobox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .location, .hours {
@@ -159,4 +187,11 @@ footer {
   height: 5rem;
   display: flex;
   align-items: center;
+  padding: 4rem;
+}
+
+.footerbox {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
 }
